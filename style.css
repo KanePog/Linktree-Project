@@ -1,0 +1,65 @@
+/* Center everything vertically & horizontally */
+body {
+    background-color: #9867C5;
+    font-family: interstate, sans-serif;
+    color: #F5F5F4;
+    font-size: 18px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+  /* Make image larger and centered */
+  img {
+    border-radius: 200px;
+    border: 7px solid #F5F5F4;
+    height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 48px;
+    margin: 10px 0 20px 0;
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin: 15px 0;
+    font-weight: 700;
+  }
+  
+  /* Paragraph */
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Links */
+  a {
+    background-color: #F5F5F4;
+    font-size: 22px;
+    border-radius: 12px;
+    padding: 14px;
+    display: block;
+    margin: 20px auto; /* Increased spacing between links */
+    color: #9867C5;
+    box-shadow: 7.5px 7.5px #BFBFBF;
+    text-decoration: none;
+    width: 340px;
+    transition: transform 0.2s ease;
+  }
+  
+  
+  a:hover {
+    transform: scale(1.05);
+  }
+  
